@@ -1,0 +1,99 @@
+.inner-1200 {
+  position: relative;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.mark-num-color {
+  color: yellow;
+}
+
+.nothing-color {
+  color: #fb3a40;
+}
+
+.row-60 {
+  height: 60px;
+}
+
+.up-color {
+  color: #e0141f;
+}
+
+span.down-color {
+  color: #20c657;
+}
+
+.price-color {
+  color: #fe9900;
+}
+
+.btn-add-selector {
+  color: #333;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.btn-service {
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.btn-service img {
+  position: relative;
+  top: 5px;
+}
+
+.call-color {
+  color: #009ee5;
+}
+
+.el-tooltip__popper.is-light {
+  border: 1px solid #ddd;
+  box-shadow: 3px 3px 5px #ddd;
+}
+
+
+/* 服务提示内容 */
+
+.sy-tipbox {
+  width: 352px;
+  height: 148px;
+  display: flex;
+  .left {
+    text-align: center;
+  }
+  .weixin-info {
+    width: 95px;
+    color: #666;
+    p {
+      font-size: 12px;
+    }
+  }
+  .right {
+    flex: 1;
+    position: relative;
+    padding-left: 20px;
+  }
+  .qq {
+    position: absolute;
+    right: 14px;
+    top: 25px;
+  }
+  .card-info {
+    color: #666;
+    h3 {
+      line-height: 28px;
+      font-size: 16px;
+    }
+    .position {
+      line-height: 32px;
+      font-size: 14px;
+    }
+    p {
+      line-height: 22px;
+      font-size: 12px;
+    }
+  }
+}
+

@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <el-button type="primary">element ui 成功</el-button>
+    <el-button type="primary">案例1000练</el-button>
     <router-view/>
   </div>
 </template>
