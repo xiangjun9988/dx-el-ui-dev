@@ -1,13 +1,20 @@
 <template>
   <div id="app">
-    <el-button type="primary">案例1000练</el-button>
+    <header-box></header-box>
     <router-view/>
+    <footer-box></footer-box>
   </div>
 </template>
 
 <script>
+import HeaderBox from "@/components/Header";
+import FooterBox from "@/components/Footer";
 export default {
-  name: 'app'
+  name: 'app',
+  components: {
+    HeaderBox,
+    FooterBox
+  }
 }
 </script>
 
@@ -16,8 +23,6 @@ export default {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
